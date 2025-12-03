@@ -1,6 +1,7 @@
 use crate::compiler::{lexer::token::Token, parser::node::Node};
 
 pub mod node;
+pub mod nodes;
 pub mod parser_struct;
 pub mod structs;
 
